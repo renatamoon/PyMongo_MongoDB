@@ -1,6 +1,7 @@
 import pymongo
 from pymongo import MongoClient
 
+
 cluster = MongoClient("mongodb://renatamoon:264500@clusterlearning-shard-00-00.b6jyp.mongodb.net:27017,clusterlearning"
                       "-shard-00-01.b6jyp.mongodb.net:27017,clusterlearning-shard-00-02.b6jyp.mongodb.net:27017/myFirst"
                       "Database?ssl=true&replicaSet=atlas-z3vvyr-shard-0&authSource=admin&retryWrites=true&w=majority")
